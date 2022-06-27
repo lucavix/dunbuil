@@ -1,0 +1,13 @@
+<canvas #thecanva style="border:1px solid blue;   background-color: white;">
+</canvas>
+<div class="mycards">
+    <ul class="hand">
+        <li class="card" *ngFor="let card of hand; let i = index">
+            <h3>{{card.name}}</h3>
+            <p>
+                {{card.description}}
+            </p>
+        </li>
+    </ul>
+</div>
+  

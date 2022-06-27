@@ -1,0 +1,27 @@
+div.mycards {
+    position: absolute;
+    bottom: 15em;
+}
+li.card {
+    width: 9.9em;
+    height: 13.8em;
+    padding: 1em;
+    position: absolute;
+}
+
+
+.mycards ul.hand li:nth-child(1) { left: 3em;  transform: rotate(-20deg);}
+.mycards ul.hand li:nth-child(2) { left: 12em; transform: rotate(-15deg);}
+.mycards ul.hand li:nth-child(3) { left: 21em; transform: rotate(-10deg);}
+.mycards ul.hand li:nth-child(4) { left: 30em; transform: rotate(-5deg);} 
+.mycards ul.hand li:nth-child(5) { left: 39em; transform: rotate(0deg);}
+.mycards ul.hand li:nth-child(6) { left: 48em; transform: rotate(5deg);}
+.mycards ul.hand li:nth-child(7) { left: 57em; transform: rotate(10deg);}
+.mycards ul.hand li:nth-child(8) { left: 66em; transform: rotate(15deg);}
+
+li.card:hover {
+    z-index: 1000;
+    transform: rotate(0deg) scale(1.2) !important;
+    border: 3px solid blue
+    
+}
